@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	fmt.Println("Enter Your Name:")
 	var name string
 
@@ -10,6 +11,6 @@ func main() {
 	fmt.Scan(&name)
 	fmt.Println("Hello ", name)
 
-	//To read whole line, use bufio package's NewScanner or ReadString functions 
-	
+	//To read whole line, use bufio package's NewScanner or ReadString functions
+	InputReader()
 }
