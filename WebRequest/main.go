@@ -8,7 +8,7 @@ import (
 
 func main() {
 	fmt.Println("Learn Web Request")
-	res, err := http.Get("https://jsonplaceholder.typicode.com/todos/")
+	res, err := http.Get("https://jsonplaceholder.typicode.com/todos/1")
 	if err != nil {
 		fmt.Println("Error Getting response")
 		return
@@ -22,6 +22,7 @@ func main() {
 		return
 	}
 	fmt.Println("Response is ", string(data))
+	handleUrl()
 }
 
 /*
