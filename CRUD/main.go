@@ -45,8 +45,10 @@ func PerformGETRequest() {
 
 func main() {
 	fmt.Println("Let's Learn CRUD")
-	PerformGETRequest()
-	PerformPOSTRequest()
+	// PerformGETRequest()
+	// PerformPOSTRequest()
+	// PerformUPDATERequest()
+	PerformDELETERequest()
 }
 
 /*
